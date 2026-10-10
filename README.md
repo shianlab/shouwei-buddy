@@ -98,7 +98,7 @@ npm exec --yes --package=pnpm@11.28.5 -- pnpm start
 <details>
 <summary><strong>③ 收好交付——检查结果、附件与说明集中确认</strong></summary>
 
-![交付预览](docs/assets/delivery.png)
+![交付准备：附件选择与交付说明](docs/assets/delivery.png)
 
 </details>
 
