@@ -1,0 +1,91 @@
+# 收尾搭子 · dsh 运行时基础 patch（模板）
+#
+# connection.ts 在本模板基础上注入 system-prompt（personaPrefix）
+# 与 llm-pi-ai（用户模型提供方路由）两行配置。
+#
+# 本文件语义：禁用 dsh-base 中所有会向模型暴露工具的行。
+# 模型因此没有 shell、文件读写、联网搜索与子代理能力，只能进行只读文本分析。
+# 行清单需与 packages/harness-adapter/src/connection.ts 的 TOOL_ROW_IDS 保持一致。
+
+- id: tool-bash
+  disabled: true
+
+- id: tool-pwsh
+  disabled: true
+
+- id: tool-fs
+  disabled: true
+
+- id: tool-fs-search
+  disabled: true
+
+- id: tool-working-directory
+  disabled: true
+
+- id: tool-jobs
+  disabled: true
+
+- id: tool-skill
+  disabled: true
+
+- id: tool-subagent
+  disabled: true
+
+- id: tool-subagent-control
+  disabled: true
+
+- id: tool-subagent-list-agents
+  disabled: true
+
+- id: tool-subagent-fork
+  disabled: true
+
+- id: tool-web
+  disabled: true
+
+- id: tool-workflow
+  disabled: true
+
+- id: tool-todo
+  disabled: true
+
+- id: tool-goal
+  disabled: true
+
+- id: tool-ask-user
+  disabled: true
+
+- id: tool-schedule
+  disabled: true
+
+- id: tool-present
+  disabled: true
+
+- id: tool-cordis
+  disabled: true
+
+- id: tool-plugin-manager
+  disabled: true
+
+- id: plan-mode
+  disabled: true
+
+- id: workspace-dependencies
+  disabled: true
+
+- id: skill-office
+  disabled: true
+
+# 不自动把宿主目录的说明、技能和 MCP 上下文附加到用户材料。
+- id: agent-instructions
+  disabled: true
+
+- id: skill-filesystem
+  disabled: true
+
+- id: mcp-resources
+  disabled: true
+
+- id: sdk-jsonrpc-server
+  config:
+    maxTokensAsSuccess: false

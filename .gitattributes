@@ -1,0 +1,7 @@
+*.png binary
+*.pdf binary
+*.docx binary
+
+# Preserve the exact upstream license bytes and their recorded checksums.
+docs/licenses/** -whitespace
+apps/web/public/licenses/** -whitespace

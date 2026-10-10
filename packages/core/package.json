@@ -1,0 +1,26 @@
+{
+  "name": "@shouwei/core",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./lib/index.d.ts",
+      "default": "./lib/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@shouwei/contracts": "workspace:*",
+    "zod": "4.6.5",
+    "pdfjs-dist": "6.4.299",
+    "fflate": "0.8.3",
+    "fast-xml-parser": "5.11.2"
+  },
+  "license": "MIT"
+}

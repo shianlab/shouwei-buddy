@@ -1,0 +1,52 @@
+# 依赖与构建产物
+node_modules/
+**/lib/
+**/dist/
+*.tsbuildinfo
+
+# 运行时生成的补丁与临时数据
+.runtime/
+
+# 环境变量（只允许 .env.example）
+.env
+.env.*
+!.env.example
+
+# macOS / 外置磁盘
+.DS_Store
+._*
+
+# 日志
+*.log
+
+# 浏览器验证临时输出
+/test-results/
+/playwright-report/
+/release/
+.release-cache/
+.release-work/
+native/build/
+*.app/
+
+# 私人状态与凭据
+*.sqlite
+*.sqlite-*
+*.db
+*.pem
+*.p12
+model-settings.json
+/snapshots/
+/exports/
+/staging/
+/model-runtime/
+
+# 对外文档允许清单；开发过程记录保留在本机
+/docs/*
+!/docs/assets/
+!/docs/licenses/
+!/docs/architecture.md
+!/docs/getting-started.md
+!/docs/verification.md
+!/docs/known-limitations.md
+!/docs/local-data.md
+!/docs/release-checklist.md

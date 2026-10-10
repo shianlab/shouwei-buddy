@@ -1,0 +1,22 @@
+{
+  "name": "@shouwei/desktop",
+  "version": "0.1.0-dev",
+  "private": true,
+  "type": "module",
+  "description": "收尾搭子桌面壳",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json && node scripts/copy-renderer.mjs",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "dev": "pnpm build && electron .",
+    "verify:runtime": "electron dist/verify.js"
+  },
+  "dependencies": {
+    "@shouwei/contracts": "workspace:*",
+    "@shouwei/harness-adapter": "workspace:*"
+  },
+  "devDependencies": {
+    "electron": "44.7.0"
+  },
+  "license": "MIT"
+}

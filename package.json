@@ -1,0 +1,49 @@
+{
+  "name": "shouwei-buddy",
+  "version": "0.1.0-rc.1",
+  "private": true,
+  "type": "module",
+  "description": "收尾搭子：交东西之前，帮你把最后几件事收好。",
+  "license": "MIT",
+  "author": "时安 (shianlab)",
+  "repository": { "type": "git", "url": "https://github.com/shianlab/shouwei-buddy.git" },
+  "homepage": "https://github.com/shianlab/shouwei-buddy#readme",
+  "bugs": { "url": "https://github.com/shianlab/shouwei-buddy/issues" },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "scripts": {
+    "build": "pnpm -r --filter './packages/*' build",
+    "typecheck": "pnpm build && pnpm -r typecheck && tsc -p tsconfig.tests.json && tsc -p tsconfig.e2e.json",
+    "test": "pnpm build && pnpm build:keychain && vitest run",
+    "test:integration": "pnpm build && vitest run tests/integration",
+    "verify:electron": "pnpm build && pnpm --filter @shouwei/desktop run build && pnpm --filter @shouwei/desktop run verify:runtime",
+    "dev:desktop": "pnpm --filter @shouwei/desktop run dev",
+    "verify:model": "pnpm build && node --env-file-if-exists=.env scripts/verify-model.mjs",
+    "dev": "pnpm build && pnpm --filter @shouwei/server build && node scripts/dev.mjs",
+    "build:web": "pnpm --filter @shouwei/web build",
+    "preview:web": "pnpm --filter @shouwei/web preview",
+    "test:e2e": "pnpm build:app && playwright test",
+    "build:app": "pnpm build && pnpm --filter @shouwei/server build && pnpm build:web",
+    "start": "pnpm build:app && node apps/server/lib/main.js",
+    "build:keychain": "node scripts/build-keychain.mjs",
+    "package:mac": "pnpm build:app && node scripts/package-mac.mjs",
+    "package:source": "node scripts/package-source.mjs",
+    "verify:package": "node scripts/verify-package.mjs",
+    "verify:package-flow": "node scripts/verify-package-flow.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "24.19.2",
+    "typescript": "5.9.3",
+    "vitest": "5.0.3",
+    "@shouwei/harness-adapter": "workspace:*",
+    "@shouwei/contracts": "workspace:*",
+    "js-yaml": "5.4.3",
+    "zod": "4.6.5",
+    "@types/js-yaml": "4.0.9",
+    "@playwright/test": "1.64.0",
+    "@axe-core/playwright": "4.13.0",
+    "fflate": "0.8.3"
+  },
+  "packageManager": "pnpm@11.28.5"
+}

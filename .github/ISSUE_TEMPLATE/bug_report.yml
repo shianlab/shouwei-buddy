@@ -1,0 +1,35 @@
+name: 问题反馈
+description: 提交一个可复现的问题
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: "请使用合成材料复现。不要上传真实 Key、私人文件、数据库或完整日志；安全漏洞请使用私密报告。当前仅支持 Apple Silicon Mac。"
+  - type: input
+    id: environment
+    attributes:
+      label: 环境
+      description: macOS 版本、芯片、Node 版本、应用版本或提交号
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      placeholder: |
+        1. 打开…
+        2. 点击…
+        3. 出现…
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 预期与实际结果
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 脱敏截图或错误码
+      description: 模型问题可注明协议与模型 ID，但不要提供密钥或私人正文。

@@ -1,0 +1,219 @@
+{
+  "saxes@6.0.0": {
+    "files": [
+      "docs/licenses/release/saxes@6.0.0-LICENSE.txt"
+    ],
+    "source": "https://raw.githubusercontent.com/lddubeau/saxes/211fa0ebec9b628affc09219199639887174bfc3/LICENSE",
+    "sha256": "0fac2374380621b22e6b50451057721a9c52935b02d16d106a9f04897f061d0e"
+  },
+  "@aws-sdk/credential-provider-http@3.972.74": {
+    "files": [
+      "docs/licenses/release/@aws-sdk__credential-provider-http@3.972.74-LICENSE-NOTICE.txt"
+    ],
+    "source": "https://spdx.org/licenses/Apache-2.0.json",
+    "publisherMetadata": "https://registry.npmjs.org/%40aws-sdk%2Fcredential-provider-http/3.972.74",
+    "license": "Apache-2.0",
+    "sha256": "0926afcd31bc3da760310d3bc7d439acad31c52972ec60ceae5e53e6eba36d04",
+    "kind": "publisher-declaration-with-standard-text-and-notice"
+  },
+  "@aws-sdk/credential-provider-login@3.972.79": {
+    "files": [
+      "docs/licenses/release/@aws-sdk__credential-provider-login@3.972.79-LICENSE-NOTICE.txt"
+    ],
+    "source": "https://spdx.org/licenses/Apache-2.0.json",
+    "publisherMetadata": "https://registry.npmjs.org/%40aws-sdk%2Fcredential-provider-login/3.972.79",
+    "license": "Apache-2.0",
+    "sha256": "60d98d3ad4ba93f243a24bc53477ad3a28194830d2cb9b9cf7706e04271ed8bd",
+    "kind": "publisher-declaration-with-standard-text-and-notice"
+  },
+  "@aws-sdk/nested-clients@3.997.46": {
+    "files": [
+      "docs/licenses/release/@aws-sdk__nested-clients@3.997.46-LICENSE-NOTICE.txt"
+    ],
+    "source": "https://spdx.org/licenses/Apache-2.0.json",
+    "publisherMetadata": "https://registry.npmjs.org/%40aws-sdk%2Fnested-clients/3.997.46",
+    "license": "Apache-2.0",
+    "sha256": "00eb6bce19702eeb4c87d35eb257097d7a2e4d3bee410fa5e4c623e5fb858b3f",
+    "kind": "publisher-declaration-with-standard-text-and-notice"
+  },
+  "@deepseek-ai/dsh-experimental-inspector@0.2.1-alpha.2": {
+    "files": [
+      "docs/licenses/release/@deepseek-ai__dsh-experimental-inspector@0.2.1-alpha.2-LICENSE-NOTICE.txt"
+    ],
+    "source": "https://spdx.org/licenses/MIT.json",
+    "publisherMetadata": "https://registry.npmjs.org/%40deepseek-ai%2Fdsh-experimental-inspector/0.2.1-alpha.2",
+    "license": "MIT",
+    "sha256": "6f61552601cdd2f959e96d8743604b732e39fdc9bbbe8b8b1ff8e7cc78d1e3e8",
+    "kind": "publisher-declaration-with-standard-text-and-notice"
+  },
+  "@deepseek-ai/libreoffice-kit-darwin-arm64@0.1.5": {
+    "files": [
+      "docs/licenses/release/@deepseek-ai__libreoffice-kit-darwin-arm64@0.1.5-LICENSE-NOTICE.txt"
+    ],
+    "source": "https://spdx.org/licenses/MPL-2.0.json",
+    "publisherMetadata": "https://registry.npmjs.org/%40deepseek-ai%2Flibreoffice-kit-darwin-arm64/0.1.5",
+    "license": "MPL-2.0",
+    "sha256": "bc3a523099cbba6e77433fea19d8570c8dc6b594a06a84822de2bf8de3ae2513",
+    "kind": "publisher-declaration-with-standard-text-and-notice"
+  },
+  "@earendil-works/pi-ai@1.1.0": {
+    "files": [
+      "docs/licenses/release/@earendil-works__pi-ai@1.1.0-LICENSE-NOTICE.txt"
+    ],
+    "source": "https://spdx.org/licenses/MIT.json",
+    "publisherMetadata": "https://registry.npmjs.org/%40earendil-works%2Fpi-ai/1.1.0",
+    "license": "MIT",
+    "sha256": "bc61c043c3e84a4d529bc5c5ed85d4006a41db3a0817adb3595c7615c8d079bd",
+    "kind": "publisher-declaration-with-standard-text-and-notice"
+  },
+  "@earendil-works/pi-telemetry@1.1.0": {
+    "files": [
+      "docs/licenses/release/@earendil-works__pi-telemetry@1.1.0-LICENSE-NOTICE.txt"
+    ],
+    "source": "https://spdx.org/licenses/MIT.json",
+    "publisherMetadata": "https://registry.npmjs.org/%40earendil-works%2Fpi-telemetry/1.1.0",
+    "license": "MIT",
+    "sha256": "0f2ad6f14a0b187a27a207012376014b18563fa632dc5d07a0f742d805fc803a",
+    "kind": "publisher-declaration-with-standard-text-and-notice"
+  },
+  "@img/sharp-libvips-darwin-arm64@1.3.4": {
+    "files": [
+      "docs/licenses/release/@img__sharp-libvips-darwin-arm64@1.3.4-LICENSE-NOTICE.txt"
+    ],
+    "source": "https://spdx.org/licenses/LGPL-3.0-or-later.json",
+    "publisherMetadata": "https://registry.npmjs.org/%40img%2Fsharp-libvips-darwin-arm64/1.3.4",
+    "license": "LGPL-3.0-or-later",
+    "sha256": "8faf416da5d467a9710924c1c8104707029d556e332d5b90c33b6932028661bb",
+    "kind": "publisher-declaration-with-standard-text-and-notice"
+  },
+  "@koromix/koffi-darwin-arm64@3.1.1": {
+    "files": [
+      "docs/licenses/release/@koromix__koffi-darwin-arm64@3.1.1-LICENSE-NOTICE.txt"
+    ],
+    "source": "https://spdx.org/licenses/MIT.json",
+    "publisherMetadata": "https://registry.npmjs.org/%40koromix%2Fkoffi-darwin-arm64/3.1.1",
+    "license": "MIT",
+    "sha256": "8f33c1c9574d2e652e8c6dc16e3c45324f2da9610e7839cc4eb9727d1f4552f8",
+    "kind": "publisher-declaration-with-standard-text-and-notice"
+  },
+  "@napi-rs/canvas-darwin-arm64@1.0.10": {
+    "files": [
+      "docs/licenses/release/@napi-rs__canvas-darwin-arm64@1.0.10-LICENSE-NOTICE.txt"
+    ],
+    "source": "https://spdx.org/licenses/MIT.json",
+    "publisherMetadata": "https://registry.npmjs.org/%40napi-rs%2Fcanvas-darwin-arm64/1.0.10",
+    "license": "MIT",
+    "sha256": "b26eaace3e51d4dad627db891883f117f7dfb9f881b06819453c32e5f533ca47",
+    "kind": "publisher-declaration-with-standard-text-and-notice"
+  },
+  "@nodable/entities@3.1.0": {
+    "files": [
+      "docs/licenses/release/@nodable__entities@3.1.0-LICENSE-NOTICE.txt"
+    ],
+    "source": "https://spdx.org/licenses/MIT.json",
+    "publisherMetadata": "https://registry.npmjs.org/%40nodable%2Fentities/3.1.0",
+    "license": "MIT",
+    "sha256": "bed4640de9a572cdd8b663c478393509918692e05fbb2ae706ad055c079b6241",
+    "kind": "publisher-declaration-with-standard-text-and-notice"
+  },
+  "@xterm/addon-serialize@0.14.0": {
+    "files": [
+      "docs/licenses/release/@xterm__addon-serialize@0.14.0-LICENSE-NOTICE.txt"
+    ],
+    "source": "https://spdx.org/licenses/MIT.json",
+    "publisherMetadata": "https://registry.npmjs.org/%40xterm%2Faddon-serialize/0.14.0",
+    "license": "MIT",
+    "sha256": "e6670bb7046468de446d5fc5a8e2f41e24ea218654e942b14b431f2964cca512",
+    "kind": "publisher-declaration-with-standard-text-and-notice"
+  },
+  "@xterm/headless@6.0.0": {
+    "files": [
+      "docs/licenses/release/@xterm__headless@6.0.0-LICENSE-NOTICE.txt"
+    ],
+    "source": "https://spdx.org/licenses/MIT.json",
+    "publisherMetadata": "https://registry.npmjs.org/%40xterm%2Fheadless/6.0.0",
+    "license": "MIT",
+    "sha256": "61c228b8d11c265279b387443f68706aa9003ef5c021c9f1597d88ed3ecb99b3",
+    "kind": "publisher-declaration-with-standard-text-and-notice"
+  },
+  "brotli@1.3.3": {
+    "files": [
+      "docs/licenses/release/brotli@1.3.3-LICENSE-NOTICE.txt"
+    ],
+    "source": "https://spdx.org/licenses/MIT.json",
+    "publisherMetadata": "https://registry.npmjs.org/brotli/1.3.3",
+    "license": "MIT",
+    "sha256": "3541ed4f756cf6e4bd18f1965a508d84cc4902bba9d16d1a58551402d33ac55c",
+    "kind": "publisher-declaration-with-standard-text-and-notice"
+  },
+  "data-uri-to-buffer@4.0.1": {
+    "files": [
+      "docs/licenses/release/data-uri-to-buffer@4.0.1-LICENSE-NOTICE.txt"
+    ],
+    "source": "https://spdx.org/licenses/MIT.json",
+    "publisherMetadata": "https://registry.npmjs.org/data-uri-to-buffer/4.0.1",
+    "license": "MIT",
+    "sha256": "c7ebb9545e7bea728c6550ace133b3ee47f23afe49f9282184e28c5f3849c52f",
+    "kind": "publisher-declaration-with-standard-text-and-notice"
+  },
+  "dfa@1.2.0": {
+    "files": [
+      "docs/licenses/release/dfa@1.2.0-LICENSE-NOTICE.txt"
+    ],
+    "source": "https://spdx.org/licenses/MIT.json",
+    "publisherMetadata": "https://registry.npmjs.org/dfa/1.2.0",
+    "license": "MIT",
+    "sha256": "6ce77d73a55fbf2bec74b6ea386d3152d2ba6bb15d1af8ce5afc09180b482218",
+    "kind": "publisher-declaration-with-standard-text-and-notice"
+  },
+  "fontkit@2.0.4": {
+    "files": [
+      "docs/licenses/release/fontkit@2.0.4-LICENSE-NOTICE.txt"
+    ],
+    "source": "https://spdx.org/licenses/MIT.json",
+    "publisherMetadata": "https://registry.npmjs.org/fontkit/2.0.4",
+    "license": "MIT",
+    "sha256": "60b3f4a078b5e344c146a85b4e8b74941aed45130106fcd9961a6d4b21b068cd",
+    "kind": "publisher-declaration-with-standard-text-and-notice"
+  },
+  "proxy-agent-negotiate@1.1.0": {
+    "files": [
+      "docs/licenses/release/proxy-agent-negotiate@1.1.0-LICENSE-NOTICE.txt"
+    ],
+    "source": "https://spdx.org/licenses/MIT.json",
+    "publisherMetadata": "https://registry.npmjs.org/proxy-agent-negotiate/1.1.0",
+    "license": "MIT",
+    "sha256": "58ee04dc15d79049fe99e1e0f48bbac58c2f99d055ec40174d2e566d876616b4",
+    "kind": "publisher-declaration-with-standard-text-and-notice"
+  },
+  "sherpa-onnx-darwin-arm64@1.13.8": {
+    "files": [
+      "docs/licenses/release/sherpa-onnx-darwin-arm64@1.13.8-LICENSE-NOTICE.txt"
+    ],
+    "source": "https://spdx.org/licenses/Apache-2.0.json",
+    "publisherMetadata": "https://registry.npmjs.org/sherpa-onnx-darwin-arm64/1.13.8",
+    "license": "Apache-2.0",
+    "sha256": "7a8025df414fee8c542386b9a7238cc0cf078fe28a76cf24b663ab4cb0540787",
+    "kind": "publisher-declaration-with-standard-text-and-notice"
+  },
+  "sherpa-onnx-node@1.13.8": {
+    "files": [
+      "docs/licenses/release/sherpa-onnx-node@1.13.8-LICENSE-NOTICE.txt"
+    ],
+    "source": "https://spdx.org/licenses/Apache-2.0.json",
+    "publisherMetadata": "https://registry.npmjs.org/sherpa-onnx-node/1.13.8",
+    "license": "Apache-2.0",
+    "sha256": "c894abf953c070f5a3a6b600665684021e39e8efa97dc68c3cce13c114aa8a71",
+    "kind": "publisher-declaration-with-standard-text-and-notice"
+  },
+  "standardwebhooks@1.1.1": {
+    "files": [
+      "docs/licenses/release/standardwebhooks@1.1.1-LICENSE-NOTICE.txt"
+    ],
+    "source": "https://spdx.org/licenses/MIT.json",
+    "publisherMetadata": "https://registry.npmjs.org/standardwebhooks/1.1.1",
+    "license": "MIT",
+    "sha256": "e9025e022cb403814ba6ad71adff22989c01d9464ad9596b4fee12139ffb7aee",
+    "kind": "publisher-declaration-with-standard-text-and-notice"
+  }
+}
